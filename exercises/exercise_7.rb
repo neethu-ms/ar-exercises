@@ -10,3 +10,12 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+puts "Enter store name"
+print ">"
+store_name = gets.chomp()
+store = Store.create(name: store_name,annual_revenue:1);
+puts store.errors.to_a 
+
+
+employee = Employee.create(  last_name: "George", hourly_rate:20)
+puts employee.errors.to_a
