@@ -6,7 +6,7 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
-class StoreDetails
+class DeleteStoreDetails
   attr_accessor :store3
   def delete_store_id
      @store3 = Store.find_by(id:3)
@@ -15,5 +15,5 @@ class StoreDetails
   end
 end
 
-store_details = StoreDetails.new
+store_details = DeleteStoreDetails.new
 store_details.delete_store_id

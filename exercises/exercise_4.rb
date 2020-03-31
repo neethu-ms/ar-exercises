@@ -7,7 +7,7 @@ puts "Exercise 4"
 puts "----------"
 
 # Your code goes here ...
-class Stores_Details
+class GetStoresDetails
   attr_accessor :mens_stores, :women_stores
 def create_stores
  
@@ -33,7 +33,7 @@ def get_stores
 
   end
   
-  stores = Stores_Details.new
+  stores = GetStoresDetails.new
   stores.create_stores 
   stores.get_stores
   

@@ -5,7 +5,7 @@ puts "Exercise 1"
 puts "----------"
 
  #Your code goes below here ...
-class Stores_Details
+class StoresDetails
 
 def create_stores
 Store.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: true,
@@ -21,5 +21,5 @@ puts Store.count
 end
 end
 
-stores = Stores_Details.new
+stores = StoresDetails.new
 stores.create_stores 

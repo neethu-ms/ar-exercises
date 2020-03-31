@@ -5,7 +5,7 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
-class StoreDetails
+class UpdateStoreDetails
   attr_accessor :store1, :store2
   def update_store
      @store1 = Store.find_by(id:1)
@@ -15,7 +15,7 @@ class StoreDetails
   end
 end
 
-store_details = StoreDetails.new
+store_details = UpdateStoreDetails.new
 store_details.update_store
 p store_details.store1
 p store_details.store2
